@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Connect - Sign Up</title>
+    <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <br>
+        <br>
+        <form id="signup-form" class="form">
+            <div class="form-control">
+                <label for="username"><b>Full Names</b></label>
+                <input type="text" placeholder="Moureen Gitahi" id="fullname" />
+
+            </div>
+            <div class="form-control">
+                <label for="username"><b>Email</b></label>
+                <input type="email" placeholder="gitahi@gmail.com" id="email" />
+
+            </div>
+            <div class="form-control">
+                <label for="username"><b>Password</b></label>
+                <input type="password" placeholder="********" id="password"/>
+
+            </div>
+            <div class="form-control">
+                <label for="username"><b>Confirm Password</b></label>
+                <input type="password" placeholder="********" id="password2"/>
+
+            </div>
+            <button><a href="/index.html"><b>Sumbit</b></a></button>
+            <br>
+            <p><b>Already have an account?</b><a href="/login.html"><b style="color: blueviolet;">Login</b></a></p>
+        </form>
+    </div>
+    
+    
+   
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase.js"></script>
+    <script>      
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+    apiKey: "AIzaSyCrQAIxi21qTCYPJKUX8LAyB1TmYDw_M5o",
+    authDomain: "mentor-connect-e8003.firebaseapp.com",
+    projectId: "mentor-connect-e8003",
+    storageBucket: "mentor-connect-e8003.appspot.com",
+    messagingSenderId: "1025374745831",
+    appId: "1:1025374745831:web:5459e212631985740bde42"
+    };    
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="/js/signup.js"></script>
+</body>
+</html>

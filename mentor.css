@@ -1,0 +1,139 @@
+header {
+    background-color: rgb(121, 45, 169);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(121, 45, 169);
+}
+header {
+    background-color: rgb(121, 45, 169);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: -20px;
+    margin-left: 10px;
+}
+#logout-button {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+#logout-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+input[type='submit'] {
+    background-color: #8e44ad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+#mentor{
+    width: 400px;
+    border-radius: 50%;
+    border: white;
+    margin-left: 30%;
+    margin-top: 1%;
+   
+}
+#mentor-profile{
+    /* background-color: #fff; */
+    display: flex;
+    gap: 15%;
+}
+#text{
+    font-size: x-large;
+    margin-left: 10%;
+    margin-top:2% ;
+    justify-content: center;
+    color: #fff;
+}
+
+@media only screen and (max-width:480px){
+    #mentor-profile{
+        flex-wrap: wrap;
+    }
+    #mentor{
+        width: 300px;
+        border-radius: 50%;
+        border: white;
+        margin-left: 1%;
+        margin-top: 1%;
+       
+    }
+    header {
+       flex-wrap: wrap;
+    }
+    
+} 
+    
