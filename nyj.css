@@ -1,0 +1,66 @@
+.navbar{
+    display: flex;
+    gap: 80px;
+    font-size: x-large;
+    font-weight: 400;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-style: oblique; 
+}
+.navbar a:hover{
+    color: rgb(255, 127, 191);
+}
+h1{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: white;
+
+}
+#text{
+    color: white;
+    font-size: large;
+    font-size: 20px;
+    margin-bottom: 10%;
+
+
+}
+#landing-page{
+    display: flex;
+    justify-content: center;
+}
+#crime{
+    margin-top: 20%;
+}
+    @media only screen and (max-width:480px){
+        .navbar{
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+            font-size: x-large;
+            font-weight: 400;
+            justify-content: center;
+            color: white;
+            margin-bottom: 10%;
+            margin-top: 5%;
+        }
+        #landing-page{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        
+
+    }
