@@ -89,6 +89,8 @@ input[type='submit'] {
     cursor: pointer;
     font-size: 16px;
 }
+
+
 footer {
     background-color: #333;
     color: #fff;
@@ -97,6 +99,27 @@ footer {
     /* position: fixed; */
     bottom: 0;
     width: 100%;
+}
+button{
+    background-color: #8e44ad;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    border: none;
+    margin-top: 2%;
+    margin-right: 5%;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+#born{
+    display: flex;
+    gap: 6%;
+    margin-top: 3%;
 }
 @media only screen and (max-width:480px){
     nav {
